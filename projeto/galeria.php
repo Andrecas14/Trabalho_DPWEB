@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parque de Campismo da Praia da Tocha</title>
     <?php include('includes/linkscss.php')?>
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 </head>
@@ -28,16 +28,16 @@
     </div>
     
     <div class="div-imagem" style="background-image:url('imagens/imagem6.jpg');">
-    <a href="index2.php"><h1 class="logo" style=" display: flex; justify-content: center; align-items: center; height: 35vh;"> <img src="imagens/logo3.png"></h1></a>
+    <a href="index.php"><h1 class="logo" style=" display: flex; justify-content: center; align-items: center; height: 35vh;"> <img src="imagens/logo3.png"></h1></a>
     <header>
         <nav class="navbar">
             <ul class="navbar-menu">
-                <li><a href="index2.php" class="nav-link">Home</a></li>
+                <li><a href="index.php" class="nav-link active">Home</a></li>
                 <li><a href="preco.php" class="nav-link">Preçário</a></li>
                 <li><a href="sobre.php" class="nav-link">Sobre Nós</a></li>
                 <li><a href="mobile.php" class="nav-link">Mobile Homes</a></li>
                 <li><a href="tendas.php" class="nav-link">Tendas/Caravanas</a></li>
-                <li><a href="galeria.php" class="nav-link active">Galeria</a></li>
+                <li><a href="galeria.php" class="nav-link">Galeria</a></li>
             </ul>
         </nav>
     </header>
